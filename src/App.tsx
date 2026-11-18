@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ToastDemo } from "@/components/ui/ToastDemo"
+import { AlertDemo } from "@/components/ui/AlertDemo"
 
 export function App() {
   return (
@@ -9,6 +10,7 @@ export function App() {
           Click me
         </Button>
         <ToastDemo />
+        <AlertDemo />
       </div>
     </div>
   )
