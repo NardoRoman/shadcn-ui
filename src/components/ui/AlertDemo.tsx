@@ -17,17 +17,17 @@ export function AlertDemo() {
     const [show, setShow] = useState(false);
 
     return (
-        <div className="flex flex-col gap-4">
+        <div className="flex w-full flex-col items-start gap-4">
 
             <Button
                 variant="outline"
-                onClick={() => setShow(true)}
+                onClick={() => setShow((prev) => !prev)}
             >
-                Show alert
+                {show ? "Hide alert" : "Show alert"}
             </Button>
 
             {show && (
-                <Alert>
+                <Alert className="w-full">
                     <InfoIcon />
 
                     <AlertTitle>Heads up!</AlertTitle>
