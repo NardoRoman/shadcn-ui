@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button"
 import { ToastDemo } from "@/components/ui/ToastDemo"
 import { AlertDemo } from "@/components/ui/AlertDemo"
 import { DialogDemo } from "@/components/ui/DialogDemo"
+import { PopoverDemo } from "@/components/ui/PopoverDemo"
 
 export function App() {
   return (
@@ -11,6 +12,7 @@ export function App() {
         <ToastDemo />
         <AlertDemo />
         <DialogDemo />
+        <PopoverDemo />
       </div>
     </div>
   )
