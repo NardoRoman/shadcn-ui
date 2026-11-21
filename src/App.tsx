@@ -3,6 +3,7 @@ import { ToastDemo } from "@/components/ui/ToastDemo"
 import { AlertDemo } from "@/components/ui/AlertDemo"
 import { DialogDemo } from "@/components/ui/DialogDemo"
 import { PopoverDemo } from "@/components/ui/PopoverDemo"
+import { BadgeDemo } from "@/components/ui/BadgeDemo"
 
 export function App() {
   return (
@@ -13,6 +14,7 @@ export function App() {
         <AlertDemo />
         <DialogDemo />
         <PopoverDemo />
+        <BadgeDemo />
       </div>
     </div>
   )
