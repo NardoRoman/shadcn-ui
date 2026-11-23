@@ -4,6 +4,7 @@ import { AlertDemo } from "@/components/ui/AlertDemo"
 import { DialogDemo } from "@/components/ui/DialogDemo"
 import { PopoverDemo } from "@/components/ui/PopoverDemo"
 import { BadgeDemo } from "@/components/ui/BadgeDemo"
+import { SwitchDemo } from "@/components/ui/SwitchDemo"
 
 export function App() {
   return (
@@ -15,6 +16,7 @@ export function App() {
         <DialogDemo />
         <PopoverDemo />
         <BadgeDemo />
+        <SwitchDemo />
       </div>
     </div>
   )
