@@ -7,6 +7,7 @@ import { BadgeDemo } from "@/components/ui/BadgeDemo"
 import { SwitchDemo } from "@/components/ui/SwitchDemo"
 import { TooltipDemo } from "@/components/ui/TooltipDemo"
 import { SheetDemo } from "@/components/ui/SheetDemo"
+import { CollapsibleDemo } from "@/components/ui/CollapsibleDemo"
 
 export function App() {
   return (
@@ -21,6 +22,7 @@ export function App() {
         <SwitchDemo />
         <TooltipDemo />
         <SheetDemo />
+        <CollapsibleDemo />
       </div>
     </div>
   )
